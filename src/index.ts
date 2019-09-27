@@ -3,7 +3,7 @@ import { join } from 'lodash';
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = join(['Hello', 'webpack'], ' ');
+  element.innerHTML = join(['Change me to reload'], ' ');
 
   return element;
 }
